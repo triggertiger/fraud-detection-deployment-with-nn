@@ -1,0 +1,7 @@
+
+services:
+  app:
+    entrypoint: ["/bin/bash"]
+    command: ["-c", "mlflow server --host 0.0.0.0 --port 5001 & echo 'sleeping 60' && MLFLOW_PID=$! && sleep 60 && python retrain_model.py && kill -9 $MLFLOW_PID && docker stop app container && docker compose down"]
+    
+    

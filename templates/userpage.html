@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}login page{% endblock %}
+{% block content %}
+<h1>hello {{username}}! you are now logged in</h1>
+    <h3>Your review data is ready until the date: {{ last_train_date }} </h3> 
+        <br>
+        <p>Which period would you like to watch next?</p>
+        <form action="#" method="POST">
+            
+        <p>please note, prediction might take a few minutes.</p>
+        <label for="dropdown">Choose the next date from the list</label><br>
+        <select id="date_picker" name="dropdown">
+            <option value="{{dates[0] if dates else '' }}" selected>{{dates[0] if dates else '' }}</option>
+            {% for dat in dates[1:] %}
+            <option value="{{dat}}" {% if dat == selected_date %}selected{% endif %}>{{dat}}</option>
+
+            {% endfor %}
+        </select>
+        <p><input type="submit" value="Show predictions"/></p>
+    </form>
+    <br>
+   
+<a href="{{ url_for('logout') }}">press here to log out</a>
+
+{% endblock %}
+

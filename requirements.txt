@@ -1,0 +1,232 @@
+absl-py==2.1.0
+aiohappyeyeballs==2.4.0
+aiohttp==3.10.5
+aiohttp-retry==2.8.3
+aiosignal==1.3.1
+alembic==1.13.2
+amqp==5.2.0
+aniso8601==9.0.1
+annotated-types==0.7.0
+antlr4-python3-runtime==4.9.3
+appdirs==1.4.4
+appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1707233003401/work
+argcomplete==3.5.0
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+astunparse==1.6.3
+async-timeout==4.0.3
+asyncssh==2.17.0
+atpublic==5.0
+attrs==24.2.0
+bcrypt==4.2.0
+billiard==4.2.0
+blinker==1.8.2
+boto==2.49.0
+cachetools==5.4.0
+celery==5.4.0
+certifi==2024.7.4
+cffi==1.17.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
+cloudpickle==3.0.0
+colorama==0.4.6
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
+configobj==5.0.8
+contourpy==1.2.1
+crcmod==1.7
+cryptography==43.0.0
+cycler==0.12.1
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
+databricks-cli==0.18.0
+databricks-sdk==0.30.0
+debugpy @ file:///Users/runner/miniforge3/conda-bld/debugpy_1680755608266/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+Deprecated==1.2.14
+dictdiffer==0.9.0
+diskcache==5.6.3
+distro==1.9.0
+docker==6.1.3
+dpath==2.2.0
+dulwich==0.22.1
+entrypoints==0.4
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1720869315914/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1725214404607/work
+fasteners==0.19
+filelock==3.15.4
+Flask==3.0.3
+Flask-Bcrypt==1.0.1
+Flask-Login==0.6.3
+flask-marshmallow==1.2.1
+Flask-RESTful==0.3.10
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
+flatbuffers==24.3.25
+flatten-dict==0.4.2
+flufl.lock==8.1.0
+fonttools==4.53.1
+frozenlist==1.4.1
+fsspec==2024.6.1
+funcy==2.0
+gast==0.6.0
+gcs-oauth2-boto-plugin==3.2
+gitdb==4.0.11
+GitPython==3.1.43
+google-api-core==2.19.1
+google-api-python-client==2.145.0
+google-apitools==0.5.32
+google-auth==2.17.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.0.0
+google-cloud-core==2.4.1
+google-cloud-storage==2.18.2
+google-crc32c==1.5.0
+google-pasta==0.2.0
+google-reauth==0.1.1
+google-resumable-media==2.7.2
+googleapis-common-protos==1.63.2
+grandalf==0.8
+graphene==3.3
+graphql-core==3.2.3
+graphql-relay==3.2.0
+greenlet==3.0.3
+grpcio==1.65.1
+gsutil==5.30
+gto==1.7.1
+gunicorn==21.2.0
+h5py==3.11.0
+httplib2==0.20.4
+hydra-core==1.3.2
+idna==3.7
+importlib_metadata==7.2.1
+importlib_resources==6.4.0
+ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1719845458456/work
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1701831663892/work
+iterative-telemetry==0.0.8
+itsdangerous==2.2.0
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
+Jinja2==3.1.4
+joblib==1.4.2
+jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1716472197302/work
+jupyter_core @ file:///Users/runner/miniforge3/conda-bld/jupyter_core_1704727129964/work
+keras==2.14.0
+kiwisolver==1.4.5
+kombu==5.4.0
+libclang==18.1.1
+Mako==1.3.5
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+marshmallow==3.21.3
+marshmallow-sqlalchemy==1.0.0
+matplotlib==3.9.1
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
+mdurl==0.1.2
+ml-dtypes==0.2.0
+mlflow==2.16.2
+mlflow-skinny==2.16.2
+monotonic==1.6
+multidict==6.0.5
+namex==0.0.8
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
+networkx==3.2.1
+numpy==1.26.4
+oauth2client==4.1.3
+oauthlib==3.2.2
+omegaconf==2.3.0
+opentelemetry-api==1.26.0
+opentelemetry-sdk==1.26.0
+opentelemetry-semantic-conventions==0.47b0
+opt-einsum==3.3.0
+optree==0.12.1
+orjson==3.10.7
+packaging==23.2
+pandas==2.2.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
+pathspec==0.12.1
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pillow==10.4.0
+platformdirs==3.11.0
+plotly==5.23.0
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1718047967974/work
+proto-plus==1.24.0
+protobuf==4.25.3
+psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1725737862083/work
+psycopg2-binary==2.9.9
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1721585709575/work
+pyarrow==14.0.2
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycparser==2.22
+pydantic==2.8.2
+pydantic_core==2.20.1
+pydot==3.0.1
+pygit2==1.15.1
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+pygtrie==2.5.0
+PyJWT==2.9.0
+pyOpenSSL==24.2.1
+pyparsing==3.1.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-dotenv==1.0.1
+pytz==2023.4
+pyu2f==0.1.5
+PyYAML==6.0.1
+pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1698062511896/work
+querystring-parser==1.2.4
+requests==2.32.3
+requests-oauthlib==2.0.0
+retry_decorator==1.1.1
+retrying==1.3.4
+rich==13.7.1
+rsa==4.7.2
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
+scikit-learn==1.5.1
+scipy==1.13.1
+scmrepo==3.3.7
+semver==3.0.2
+shellingham==1.5.4
+shortuuid==1.0.13
+shtab==1.7.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smmap==5.0.1
+SQLAlchemy==2.0.31
+sqlparse==0.5.1
+sqltrie==0.11.1
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+tabulate==0.9.0
+tenacity==9.0.0
+tensorboard==2.14.1
+tensorboard-data-server==0.7.2
+tensorflow==2.14.0
+tensorflow-estimator==2.14.0
+tensorflow-io-gcs-filesystem==0.37.1
+termcolor==2.4.0
+threadpoolctl==3.5.0
+tomlkit==0.13.2
+tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1724956112789/work
+tqdm==4.66.5
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
+typer==0.12.5
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+tzdata==2024.1
+uritemplate==4.1.1
+urllib3==2.2.2
+vine==5.1.0
+voluptuous==0.15.2
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+websocket-client==1.8.0
+Werkzeug==3.0.3
+wrapt==1.14.1
+WTForms==3.1.2
+yarl==1.9.4
+zc.lockfile==3.0.post1
+zipp==3.19.2

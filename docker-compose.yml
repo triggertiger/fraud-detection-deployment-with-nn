@@ -1,0 +1,41 @@
+services:
+  database:
+    container_name: database
+    image: triggertiger/model_production:postgres
+    restart: always
+    volumes:
+      - ./postgres_dump:/docker-entrypoint-initdb.d
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      
+      - POSTGRES_DB=fraud_transactions 
+      - POSTGRES_PASSWORD=password1
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      retries: 5
+    ports:
+      - 5432:5432
+  
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.mlflow
+    
+    image: triggertiger/model_production:latest
+    container_name: app_container
+    depends_on:
+      - database
+    ports: 
+      - '8080:8080'
+      - '5001:5001'
+    entrypoint: ["python"]
+    command: ["app.py"]
+    environment:
+      
+      DATABASE: postgresql://postgres:password1@database:5432/fraud_transactions
+     
+volumes:
+  postgres_data:
+
+

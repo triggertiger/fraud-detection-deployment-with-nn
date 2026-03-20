@@ -1,0 +1,28 @@
+# db image
+./data/Dockerfile
+./data/*.csv
+./data/*.db
+ 
+# system 
+__pycache__
+.DS_Store
+instance
+
+# model preprocessing and building
+ml_experiments/
+mlruns_old/
+notebooks/
+experiments_pipeline.py
+
+# github related 
+tmp/
+.env
+.git
+.github/
+.gitignore
+client_secret.json
+env.example
+gcp_credentials.json
+load_from_drive.py
+README.md
+token.json

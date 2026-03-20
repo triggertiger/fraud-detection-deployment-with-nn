@@ -1,0 +1,33 @@
+.env
+*.json
+
+# model data:
+mlruns/*
+ml_experiments/mlruns/*
+mlartifacts/*
+
+# data
+data_dump/*
+postgres_dump
+*.csv
+*.db
+.DS_Store
+notebooks/mlruns/*
+*.sqlite3
+
+
+
+
+# experimental notebooks
+app.ipynb
+mlruns_old/
+model_pipeline.py
+
+
+# cache
+__pycache__/
+utils/__pycache__
+*/__pycache__/*
+*.pyc
+
+tmp/
