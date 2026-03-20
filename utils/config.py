@@ -10,14 +10,13 @@ load_dotenv('.env')
 DATA_FOLDER = os.getenv('DATA_FOLDER')
 ORIGINAL_CSV = "ibm_4y.csv"
 DATA_FILE = "clean_cc_data.csv" 
-DATABASE = "postgresql://inbalshalev@localhost:5432/fraud_transactions"
+DATABASE = f"postgresql://{os.getenv('USER')}@localhost:5432/fraud_transactions"
 
 # MLFLOW
 MLFLOW_URI = 'http://127.0.0.1:5001'
 REGISTERED_MODEL_NAME = 'mlp_fraud_4'
 MLFLOW_REGISTERED_MODEL = os.path.join('mlruns/models', REGISTERED_MODEL_NAME)
 EXPERIMENT_NAME = 'mlp_fraud'
-#DATABASE_FULL_PATH = f'sqlite:///{DATA_FOLDER}/fraud_transactions.db'
 
 # model architecture paramseters:
 PARAMS = {
